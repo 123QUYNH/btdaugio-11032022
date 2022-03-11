@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let arr = [0,1,2,"quỳnh","nguyên"]
+        // for(let i = 0; i<arr.length; i++){
+        //     document.write(arr[i]+"<br>")     //bt in ra mảng
+        // }
+
+        // let a = [4,6,5,4,7,3,1];
+        // for(let i=0; i<a.length; i++){
+        //     if(a[i]%2==0){                   //bt in ra số chẵn trong mảng
+        //         document.write(a[i]+"<br>");
+        //     }
+        // }
+
+        // let arr = [4,6,5,4,7,3,1];
+        // let x = +prompt("Nhap vao 1 so:")
+        // for(let i = 0; i<arr.length; i++){   //bt kiểm tra xem số x giống số nào trong mảng k
+        //     if(x==arr[i]){
+        //         document.write(i)
+        //     }
+        // }
+
+        // let arr = [4,6,5,4,7,3,1];
+        // let sum = 0;
+        // for(let i = 0; i<arr.length; i++){   //bt tính tổng
+        //     sum = sum+arr[i]; 
+        // }
+        // document.write(sum);
+
+        // let arr = [4,6,5,4,7,3,1];
+        // let sum = 0;
+        // for(let i = 0; i<arr.length; i++){ //bt tính tổng các số chẵn
+        //     if(arr[i]%2==0){
+        //         sum = sum + arr[i];
+        //     }
+        // }
+        // document.write(sum);
+
+        // let arr = [4,6,5,4,7,3,1];           //bt tính tích
+        // let tich = 1;
+        // for(let i = 0; i<arr.length; i++){ 
+        //     tich = tich*arr[i];
+        // }
+        // document.write(tich);
+
+        // let arr = [4,6,5,4,7,3,1];
+        // let sum = 0;
+        // let tich = 1;                    //bt tổng và tích
+        // for(let i = 0; i<arr.length; i++){
+        //     if(arr[i]%2==0){
+        //         sum = sum + arr[i];
+        //     }
+        //     tich = tich*arr[i];
+        // }
+        // document.write(sum+"<br>");
+        // document.write(tich);
+
+        // let arr = [4,6,5,4,7,3,1];
+        // let max = arr[0];
+        // for(let i = 0; i<arr.length; i++){  //bt tìm gtln
+        //     if(arr[i]>max){
+        //         max = arr[i];
+        //     }
+        // }
+        // document.write(max);
+
+        // let arr = [4,6,5,4,7,3,1];          //bt tìm gtnn
+        // let min = arr[0];
+        // for(let i = 0; i<arr.length; i++){
+        //     if(arr[i]<min){         
+        //         min = arr[i];
+        //     }
+        // }
+        // document.write(min);
+
+        // let arr = [4,6,5,4,7,3,1];          //đếm số phần tử chẵn trong mảng
+        // let dem = 0;
+        // for(let i = 0; i<arr.length; i++){
+        //     if(arr[i]%2==0){
+        //     dem++;
+        //     }
+        // }
+        // document.write(dem);
+
+            // let tiengViet = ["cho", "meo","vit","ga"];
+            // let english = ["Dog", "Cat","duck","chicken"];
+            // let tu = prompt("Nhap vao tu tieng Anh:")
+            // for(let i = 0; i<english.length; i++){
+            //     if(english[i]==tu){
+            //         document.write(tiengViet[i]);
+            //     }
+            // }
+
+            //indexOf
+            let tiengViet = ["cho", "meo","vit","ga"];
+            let english = ["Dog", "Cat","duck","chicken"];
+            let tu = prompt("Nhap vao tu tieng Anh:")
+            let vitri = -1;
+            for(let i = 0; i<english.length; i++){
+                if(tu == english[i]){
+                    vitri = i
+                }
+            }
+            document.write(vitri);
+    </script>
+</body>
+</html>
